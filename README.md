@@ -20,6 +20,8 @@ Main command | Main oh-my-zsh alias (omza) | (omza) full command
 --- | --- | --- 
 `git tag` | `---` | `---`
 
+Next some daily-basis command options and their possible usages:
+
 Command options | (Short) full command / </br>(Possible) Usage | Description
 --- | --- | ---
 `-l`, `--list` | `git tag -l` | List all created tags in the repo
