@@ -1,6 +1,12 @@
 # myguide: git commands
 Daily-basis git commands 
 
+## Content
+* [Logs](#logs)
+* [Tagging](#tagging)
+
+---
+
 ## Logs
 Main command | Main oh-my-zsh alias (omza) | (omza) full command
 --- | --- | --- 
