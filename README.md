@@ -34,3 +34,20 @@ Command options | (Short) full command / </br>(Possible) Usage | Description
 `-l`, `--list` | `git tag -l` | List all created tags in the repo
 `-a` | `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `-d` | `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
+
+---
+
+# WP CLI
+
+## Theming
+Main command | Description
+--- | --- 
+`wp theme list status=active` | Show active theme
+
+---
+
+# MySQL
+
+Main command | Description
+--- | --- 
+`show columns from <table> like '%person%'` | Show columns that match the given criteria (i.e. partial column name includes 'person')
