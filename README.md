@@ -30,6 +30,7 @@ Next some daily-basis command options and their possible usages:
 
 Command options | (Short) full command / </br>(Possible) Usage | Description
 --- | --- | ---
+`---` | `git tag mytag 4da45be` | Tag (simplest mode) a specified commit
 `-l`, `--list` | `git tag -l` | List all created tags in the repo
 `-a` | `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `-d` | `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
