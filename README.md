@@ -44,6 +44,11 @@ Main command | Description
 --- | --- 
 `wp theme list status=active` | Show active theme
 
+## Plugins
+Main command | Description
+--- | --- 
+`wp plugin list` | Get list of installed plugins
+
 ---
 
 # MySQL
