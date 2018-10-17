@@ -1,4 +1,4 @@
-# myguide: git commands
+git commands
 Daily-basis git commands 
 
 ## Content
@@ -35,5 +35,5 @@ Command options | (Short) full command / </br>(Possible) Usage | Description
 `-a` | `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `-d` | `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzAyNjQwMF19
+eyJoaXN0b3J5IjpbLTg3MDAxODg4M119
 -->
