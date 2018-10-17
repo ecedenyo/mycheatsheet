@@ -3,10 +3,11 @@
 Here you have *(talking to myself, ROFL)* a handy *«batería»* of the daily-basis commands you'd use working on the terminal.
 
 - [git](git/)
+- [Magento CLI](magento/)
 - [MySQL](mysql/)
-- [WP-CLI](wp-cli/)
+- [WordPress CLI](wp-cli/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM3MDAzOSwtNzUxNjU1OTM3LC0xND
-UxNzQ4MTAsLTg2NzkxODc4NCwxNzU0MjgyODIxXX0=
+eyJoaXN0b3J5IjpbLTE1Njc3OTY3NjUsLTc1MTY1NTkzNywtMT
+Q1MTc0ODEwLC04Njc5MTg3ODQsMTc1NDI4MjgyMV19
 -->
