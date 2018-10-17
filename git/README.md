@@ -1,7 +1,4 @@
-# git commands
-Daily-basis git commands 
-
-## Content
+## git commands - Content
 * [Logs](#logs)
 * [Tagging](#tagging)
 
@@ -35,5 +32,5 @@ Command options | (Short) full command / </br>(Possible) Usage | Description
 `-a` | `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `-d` | `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyMTE0NDMyXX0=
+eyJoaXN0b3J5IjpbLTE3NTYwODQwMF19
 -->
