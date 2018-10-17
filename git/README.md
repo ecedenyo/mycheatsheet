@@ -1,6 +1,6 @@
 ## git commands - Content
 
-* [Logs](#Getting log information)
+* [Logs](#getting-log-information)
 * [Tagging](#tagging)
 
 ## Getting log information
@@ -33,6 +33,6 @@ Command | Description
 `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxOTA5MDY2MiwtMTA2MjYxNTM4MCwtMT
-g2MDY1ODc2MF19
+eyJoaXN0b3J5IjpbLTE0OTg5Nzc3NDgsLTEwNjI2MTUzODAsLT
+E4NjA2NTg3NjBdfQ==
 -->
