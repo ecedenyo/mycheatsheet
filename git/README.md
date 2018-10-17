@@ -2,6 +2,7 @@
 
 * [Logs](#getting-log-information)
 * [Tagging](#tagging)
+* [Working with remotes](#working-with-remotes)
 
 ## Getting log information
 
@@ -32,6 +33,16 @@ Command | Description
 `git tag -l` | List all created tags in the repo
 `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
+
+## Working with remotes
+Command (*oh-my-zsh* alias) | Description
+--- | --- 
+`ggpull` | **Pull** from origin to current branch
+`ggpnp` | **Pull** from origin (to current branch) and **push** to origin (from current branch) in one operation (if no merges are necessary)
+`ggp` | **Push** to origin from current branch
+`gpoat` | Push *all (branches)* and *tags* to origin
+
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTExNjczMzIzOTUsLTEwNjI2MTUzODAsLT
 E4NjA2NTg3NjBdfQ==
