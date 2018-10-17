@@ -5,12 +5,9 @@
 
 ## Logs
 
-- Main command: 
-`git log`
-- Main *oh-my-zsh* alias (omza): 
-`glo`
-- full command: 
-`git log --oneline --decorate --color`
+- Main command: `git log`
+- *oh-my-zsh* alias: `glo`
+- Full command: `git log --oneline --decorate --color`
 
 Next some daily-basis command options and their possible usages:
 
@@ -35,5 +32,6 @@ Command options | (Short) full command / </br>(Possible) Usage | Description
 `-a` | `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `-d` | `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTEyODk1NSwtMTg2MDY1ODc2MF19
+eyJoaXN0b3J5IjpbLTEwNjI2MTUzODAsLTE4NjA2NTg3NjBdfQ
+==
 -->
