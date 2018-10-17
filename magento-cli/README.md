@@ -3,9 +3,12 @@
 
 Command | Description
 --- | --- 
-`select * from <table> limit 3 \G` | List results in *(kinda)* vertical grid mode *(not table, the default one)*
-`show columns from <table> like '%person%';` | Show columns that match the given criteria (i.e. partial column name includes 'person')
-`show columns from <table> where type = 'varchar';` | Show columns that match the given criteria (i.e. columns of type 'varchar')
+`bin/magento cache:clean` | limpiar toda la cache
+`bin/magento cache:clean layout full_page` | limpiar la cache de layout y full_page
+`bin/magento cache:flush` |
+`bin/magento cache:status` | lista segmentos cacheabas y si están activos o no
+`bin/magento cache:disable full_page` | deshabita cacheo del segmento full_page
+`bin/magento cache:enable full_page` | habita cacheo del segmento full_page
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjMzOTU2MTJdfQ==
+eyJoaXN0b3J5IjpbLTM0NTYxOTQ4OCwtMTYyMzM5NTYxMl19
 -->
