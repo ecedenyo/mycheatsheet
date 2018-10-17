@@ -6,13 +6,13 @@
 ## Logs
 
 - Main command: `git log`
-- *oh-my-zsh* alias: `glo`
+- : 
 - Full command: `git log --oneline --decorate --color`
 
 Next some daily-basis command options and their possible usages:
 
-Command options | (Short) full command / </br>(Possible) Usage | Description
---- | --- | ---
+*oh-my-zsh* alias | Command options | (Short) full command / </br>(Possible) Usage | Description
+--- |--- | --- | ---
 `--oneline` | `glo` | Show only a partial prefix commit (more readable) with its message
 `-5` | `glo -5` | Show the 5 recent commits (in more readable mode)
 `--before=2018-10-01` | `glo --before=2018-10-01` | Show only commits (in readable mode) done before the specified date
@@ -32,6 +32,6 @@ Command options | (Short) full command / </br>(Possible) Usage | Description
 `-a` | `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `-d` | `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjI2MTUzODAsLTE4NjA2NTg3NjBdfQ
-==
+eyJoaXN0b3J5IjpbMTAxNTI5NjMzLC0xMDYyNjE1MzgwLC0xOD
+YwNjU4NzYwXX0=
 -->
