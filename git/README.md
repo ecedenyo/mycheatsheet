@@ -11,7 +11,7 @@
 
 Next some daily-basis command options and their possible usages:
 
-*oh-my-zsh* alias | Description
+Command (*oh-my-zsh* alias) | Description
 --- |--- 
 `glo` | Show only a partial prefix commit (more readable) with its message
 `glo -5` | Show the 5 recent commits (in more readable mode)
@@ -26,13 +26,13 @@ Next some daily-basis command options and their possible usages:
 
 Next some daily-basis command options and their possible usages:
 
-Command options | (Short) full command / </br>(Possible) Usage | Description
---- | --- | ---
-`---` | `git tag mytag 4da45be` | Tag (simplest mode) a specified commit
-`-l`, `--list` | `git tag -l` | List all created tags in the repo
-`-a` | `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
-`-d` | `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
+Command | Description
+--- | --- 
+`git tag mytag 4da45be` | Tag (simplest mode) a specified commit
+`git tag -l` | List all created tags in the repo
+`git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
+`git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTgyNDk1NiwtMTA2MjYxNTM4MCwtMT
+eyJoaXN0b3J5IjpbLTY1OTM1NTk0OCwtMTA2MjYxNTM4MCwtMT
 g2MDY1ODc2MF19
 -->
