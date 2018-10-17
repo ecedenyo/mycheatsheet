@@ -8,8 +8,7 @@ Command | Description
 `bin/magento cache:flush` |
 `bin/magento cache:status` | List cached segments with status
 `bin/magento cache:disable full_page` | Disable cache for specific segment (i.e.: full_page)
-`bin/magento cache:enable full_page` | Enable cache for specific seg cacheo del segmento full_page
+`bin/magento cache:enable full_page` | Enable cache for specific segments (i.e.: full_page)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg3MDE1ODksLTE2MjMzOTU2MTJdfQ
-==
+eyJoaXN0b3J5IjpbNzIzMjE5NzU1LC0xNjIzMzk1NjEyXX0=
 -->
