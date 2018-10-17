@@ -1,9 +1,9 @@
 ## git commands - Content
 
-* [Logs](#logs)
+* [Logs](#Getting log information)
 * [Tagging](#tagging)
 
-## Logs
+## Getting log information
 
 - Main command: `git log`
 - *oh-my-zsh* alias: `glo`
@@ -33,6 +33,6 @@ Command | Description
 `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTM1NTk0OCwtMTA2MjYxNTM4MCwtMT
+eyJoaXN0b3J5IjpbMTMxOTA5MDY2MiwtMTA2MjYxNTM4MCwtMT
 g2MDY1ODc2MF19
 -->
