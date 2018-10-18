@@ -19,7 +19,7 @@ Command | Description
 ## Installation
 Command | Description
 --- | --- 
-`wp core download --locale=es_ES [--path=myfolder --debug]`
+`wp core download --locale=es_ES [--path=myfolder --debug]` | Download WP with *(optional)* a specified locale
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ0NDQ5ODMsMTU4MTI3NzUwNV19
+eyJoaXN0b3J5IjpbLTEwMzUwMjg2NjQsMTU4MTI3NzUwNV19
 -->
