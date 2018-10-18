@@ -20,6 +20,7 @@ Command | Description
 Command | Description
 --- | --- 
 `wp core download --locale=es_ES [--path=myfolder --debug]` | Download WP with *(optional)* a specified locale
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzUwMjg2NjQsMTU4MTI3NzUwNV19
--->
+`wp config create --dbname=<your_db_name> --dbuser=<your_db_user_name> --dbpass=<your_db_user_password> --dbprefix=<your_prefix_>` | **Create configuration file** with base *(to me)* instructions
+`wp db create` | **Create database** based on recent created configuration file
+`wp core install --title=<site_title> --admin_user=<site_admin_username> --admin_password=<site_admin_password> --admin_email=<site_admin_email> --url=<site_url>` | **Install WP** *(the well known 5 minutes process now in seconds!)* ...
+`wp core version` | Verified WordPress core version installed
