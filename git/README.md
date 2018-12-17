@@ -34,6 +34,7 @@ Command | Description
 `git tag -l "v1.7*"` | List all created tags in the repo matching given (kindda) pattern
 `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
+`git show mytag` | Show information saved when (annotate) tagging and related to the commit associated
 
 ## Working with remotes
 Command (*oh-my-zsh* alias) | Description
