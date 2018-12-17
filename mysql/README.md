@@ -10,3 +10,4 @@ Command | Description
 `show tables where tables_in_<databasename> not like '<condition>';` | Show only tables that match the given condition based on tables name
 `show full tables where table_type = 'base table';` | Show only table objects from database (not views, etc).
 `show full tables where table_type != 'view';` | Show only table objects from database (not views).
+`select name from mysql.proc where db = database() and type = 'procedure';`| Show only stored procedures from database, replace 'procedure' for 'function' accordingly ...
