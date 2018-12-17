@@ -29,8 +29,9 @@ Next some daily-basis command options and their possible usages:
 
 Command | Description
 --- | --- 
-`git tag mytag 4da45be` | Tag (simplest mode) a specified commit
-`git tag -l` | List all created tags in the repo
+`git tag mytag 4da45be` | Tag _(lightweight, simplest mode)_ a specified commit
+`git tag` | List all created tags in the repo
+`git tag -l "v1.7*"` | List all created tags in the repo matching given (kindda) pattern
 `git tag -a mytag 4da45be -m "My message"` | Associate to a commit (ID specified) a given tag
 `git tag -d mytag` | Drop the specified tag, doesn't affect possible related commits
 
