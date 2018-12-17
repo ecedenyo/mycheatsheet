@@ -43,6 +43,7 @@ Command (*oh-my-zsh* alias) | Description
 `ggpull` | **Pull** from origin to current branch
 `ggpnp` | **Pull** from origin (to current branch) and **push** to origin (from current branch) in one operation (if no merges are necessary)
 `ggp` | **Push** to origin from current branch
+`git push --follow-tags` | Push *annotated tags* to origin
 `gpoat` | Push *all (branches)* and *tags* to origin
 
 
