@@ -11,3 +11,5 @@ Command | Description
 `show full tables where table_type = 'base table';` | Show only table objects from database (not views, etc).
 `show full tables where table_type != 'view';` | Show only table objects from database (not views).
 `select name from mysql.proc where db = database() and type = 'procedure';`| Show only stored procedures from database, replace 'procedure' for 'function' accordingly ...
+`mysql -uroot -p --default-character-set=utf8 database \n mysql> SET names 'utf8' \n mysql> SOURCE utf8.dump`| Import _(some)_ sql to the selected database keeping the encoding.
+
