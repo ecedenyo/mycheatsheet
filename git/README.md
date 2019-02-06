@@ -3,6 +3,7 @@
 * [Logs](#getting-log-information)
 * [Tagging](#tagging)
 * [Working with remotes](#working-with-remotes)
+* [Trip to Mars: Command sequences](#trip-to-mars-command-sequences)
 
 ## Getting log information
 
@@ -38,6 +39,9 @@ Command | Description
 `git show mytag` | Show information saved when (annotate) tagging and related to the commit associated
 
 ## Working with remotes
+
+Next some daily-basis command options and their possible usages:
+
 Command (*oh-my-zsh* alias) | Description
 --- | --- 
 `ggpull` | **Pull** from origin to current branch
@@ -46,8 +50,10 @@ Command (*oh-my-zsh* alias) | Description
 `git push --follow-tags` | Push *annotated tags* to origin
 `gpoat` | Push *all (branches)* and *tags* to origin
 
+## Trip to Mars: Command sequences
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjczMzIzOTUsLTEwNjI2MTUzODAsLT
-E4NjA2NTg3NjBdfQ==
--->
+### Uncommitting
+
+1. `git reset --soft HEAD^` : moving previous committed files to staging area
+2. `git reset HEAD path/to/unwanted_file` : taking out from the commit the unwanted file
+3. `git commit -c ORIG_HEAD` : commit again re-using the same _(previous)_ message
