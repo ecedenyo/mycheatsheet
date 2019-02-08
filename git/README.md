@@ -52,6 +52,12 @@ Command (*oh-my-zsh* alias) | Description
 
 ## Trip to Mars: Command sequences
 
+### Changing message of previous commit
+
+1. `git rebase --interactive <commit-sha>^` : select commit
+2. replace `pick` to `reword`, safe
+3. _do the changes in the message_, safe
+
 ### Uncommitting
 
 1. `git reset --soft HEAD^` : moving previous committed files to staging area
