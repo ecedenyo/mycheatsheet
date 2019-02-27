@@ -1,4 +1,4 @@
-Description | SASS | LESS
+Feature | Sass | LESS
 --- | --- | ---
 Variables | $var_name: value; | @var_name: value;
 Import file | @import "folder/file"; | _... the same..._
@@ -9,6 +9,6 @@ Control functions | @if condition { ... } | when (condition) { ... }
 Nesting _(parent referencing)_ | .parent-class { ... &:hover { ... } | _... the same..._
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzQxNzMwNCwxMjQ4ODA5MzUwLDQ1NT
-IwNDcyMywtMTExMzg5NzY5Nl19
+eyJoaXN0b3J5IjpbLTQ1MjY1NDkxNCwxMjA3NDE3MzA0LDEyND
+g4MDkzNTAsNDU1MjA0NzIzLC0xMTEzODk3Njk2XX0=
 -->
