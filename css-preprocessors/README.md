@@ -2,11 +2,11 @@ Description | SASS | LESS
 --- | --- | ---
 Import file | @import "folder/file"; | _... the same..._
 Variables | $var_name: value; | @var_name: value;
-Mixins | @mixin mixin-name($params) { ... } | .mixin-name(@params) { ... }
+Mixins def. | @mixin mixin-name($optional-params) { ... } | .mixin-name(@optional-params) { ... }
+Mixin call | @include mixin-name | .mixin-name();
 Control functions | @if condition { ... } | when (condition) { ... }
 Nesting _(parent referencing)_ | .parent-class { ... &:hover { ... } | _... the same..._
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQwNDkwNzcsLTExMTM4OTc2OTZdfQ
-==
+eyJoaXN0b3J5IjpbMTY5NTQ5NjQ4OSwtMTExMzg5NzY5Nl19
 -->
