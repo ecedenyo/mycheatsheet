@@ -1,5 +1,6 @@
 Description | SASS | LESS
---- | --- | 
+--- | --- | ---
+Import file | @import "folder/file"; | @import 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODI5MTkzN119
+eyJoaXN0b3J5IjpbLTEyMjgxMjAwMjVdfQ==
 -->
