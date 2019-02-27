@@ -2,7 +2,8 @@ Description | SASS | LESS
 --- | --- | ---
 Import file | @import "folder/file"; | @import "folder/file.less";
 Variables | $var_name: value; | @var_name: value;
-Mixins | @mixin mixin-name { }
+Mixins | @mixin mixin-name($params) { ... } | .mixin-name(@params) { ... }
+Control functions | @if condition ...
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MTg0NzE1OV19
+eyJoaXN0b3J5IjpbLTMwMDE5MTEzNl19
 -->
