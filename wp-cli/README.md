@@ -3,6 +3,8 @@ WordPress Command Line Interface
 
 - [Theming](#theming)
 - [Plugins](#plugins)
+- [Core - Updating](#updating)
+- [Core - Installation](#installation)
 
 ## Theming
 Command | Description
@@ -16,7 +18,15 @@ Command | Description
 `wp plugin activate my_plugin` | Activate plugin my_plugin
 `wp plugin deactivate my_plugin` | Deactivate plugin my_plugin
 
-## Installation
+## Core features
+### Updating
+Command | Description
+--- | --- 
+`wp core update` | Updates core to newer version
+`wp core update --minor` | Updates core to a new minor version
+`wp core update --version=VERSION_NUMBER --force` | Use `--force` flag only on downgrades scenarios 
+
+### Installation
 Command | Description
 --- | --- 
 `wp core download --locale=es_ES [--path=myfolder --debug]` | Download WP with *(optional)* a specified locale
