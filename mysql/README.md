@@ -21,3 +21,6 @@ mysql -uroot -p --default-character-set=utf8 database
 mysql> SET names 'utf8';
 mysql> SOURCE utf8.dump
 ```
+
+**Exporting** including SP.
+```mysqldump <other mysqldump options> --routines outputfile.sql```
