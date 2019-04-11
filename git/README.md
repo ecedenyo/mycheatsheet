@@ -44,11 +44,12 @@ Next some daily-basis command options and their possible usages:
 
 Command (*oh-my-zsh* alias) | Description
 --- | --- 
+`git clone -b my-branch git@github.com:user/myproject.git` | **Clone** from repo a specific branch
 `ggpull` | **Pull** from origin to current branch
 `ggpnp` | **Pull** from origin (to current branch) and **push** to origin (from current branch) in one operation (if no merges are necessary)
 `ggp` | **Push** to origin from current branch
-`git push --follow-tags` | Push *annotated tags* to origin
-`gpoat` | Push *all (branches)* and *tags* to origin
+`git push --follow-tags` | **Push** *annotated tags* to origin
+`gpoat` | **Push** *all (branches)* and *tags* to origin
 
 ## Trip to Mars: Command sequences
 
