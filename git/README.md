@@ -42,7 +42,7 @@ Command | Description
 
 Next some daily-basis command options and their possible usages:
 
-Command (*oh-my-zsh* alias) | Description
+Command (probably *oh-my-zsh* alias) | Description
 --- | --- 
 `git clone -b my-branch git@github.com:user/myproject.git` | **Clone** from repo a specific branch
 `ggpull` | **Pull** from origin to current branch
@@ -50,6 +50,7 @@ Command (*oh-my-zsh* alias) | Description
 `ggp` | **Push** to origin from current branch
 `git push --follow-tags` | **Push** *annotated tags* to origin
 `gpoat` | **Push** *all (branches)* and *tags* to origin
+`git push <remote> --delete <branch-name>` | **Delete** remote branch on given remote
 
 ## Trip to Mars: Command sequences
 
