@@ -12,6 +12,7 @@ Command | Description
 `show full tables where table_type != 'view';` | Show only table objects from database (not views).
 `select name from mysql.proc where db = database() and type = 'procedure';`| Show only stored procedures from database, replace 'procedure' for 'function' accordingly ...
 `SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('columnA','ColumnB') AND TABLE_SCHEMA='YourDatabase';` | Get all tables within a specify database with given columns.
+`SELECT * INTO OUTFILE '/tmp/data.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM <table>` | Export the results of a given query to a file.
 
 ### Other combo-commands:
 
