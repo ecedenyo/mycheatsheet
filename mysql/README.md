@@ -13,6 +13,7 @@ Command | Description
 `select name from mysql.proc where db = database() and type = 'procedure';`| Show only stored procedures from database, replace 'procedure' for 'function' accordingly ...
 `SELECT DISTINCT TABLE_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE COLUMN_NAME IN ('columnA','ColumnB') AND TABLE_SCHEMA='YourDatabase';` | Get all tables within a specify database with given columns.
 `SELECT * INTO OUTFILE '/tmp/data.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM <table>` | Export the results of a given query to a file.
+`SELECT table_name, table_rows FROM information_schema.tables WHERE table_schema = (SELECT database())` | List all tables from a specify DB with record number
 
 ### Other combo-commands:
 
