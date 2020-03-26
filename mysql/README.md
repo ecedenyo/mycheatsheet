@@ -24,11 +24,18 @@ mysql> SOURCE utf8.dump
 ```
 
 **Exporting** including SP.
-```mysqldump <other mysqldump options> --routines outputfile.sql```
+```
+mysqldump <other mysqldump options> --routines outputfile.sql
+```
 
 **Exporting** specific query.
+
 _Option 1:_
-`SELECT * INTO OUTFILE '/tmp/data.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM <table>`
+```
+SELECT * INTO OUTFILE '/tmp/data.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM <table>
+```
 
 _Option 2:_
-`echo "select * from table" | mysql --host=HOST --port=PORT --user=UserName --password=Password DATABASE.SCHEMA > output.txt`
+```
+echo "select * from table" | mysql --host=HOST --port=PORT --user=UserName --password=Password DATABASE.SCHEMA > output.txt
+```
